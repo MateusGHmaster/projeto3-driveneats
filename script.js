@@ -113,5 +113,6 @@ function closeOrder() {
     if ((plateSelected != null) && (drinkSelected != null) && (dessertSelected != null)) {
         document.getElementById("Button").disabled = false;
         document.getElementById("Button").style.backgroundColor = "green";
+        document.getElementById("Button").textContent = "Fechar Pedido";
     }
 }
