@@ -18,9 +18,11 @@
 <body>
 
     <header>
-         <section class="top-bar">
-                <p class="title">DrivenEats</p>
-                <p class="sub-title">Sua comida em 6 minutos</p>
+        <section class="header-container">
+            <section class="top-bar">
+                    <p class="title">DrivenEats</p>
+                    <p class="sub-title">Sua comida em 6 minutos</p>
+            </section>
         </section>
     </header>
 
@@ -32,25 +34,25 @@
                 <p class="cat-title-1">Primeiro, seu prato</p>
             </section>
             <section class="plate-options">
-                <section class="plate-1">
+                <section id="plate1" class="plate-1" onclick="itemPlate1()">
                     <img src="./images/plate-01.png" alt="prato-1" width="144" height="87">
                     <figcaption class="plate-name-1">Bisteca de Suína Frita</figcaption>
                     <figcaption class="plate-description-1">01 bisteca de porco, arroz, feijão, salada, batata frita</figcaption>
                     <figcaption class="price-plate-1">R$12,90</figcaption>
                 </section>
-                <section class="plate-2">
+                <section id="plate2" class="plate-2" onclick="itemPlate2()">
                     <img src="./images/plate-02.png" alt="prato-2" width="144" height="87">
                     <figcaption class="plate-name-2">Bist.Suína Grelhada</figcaption>
                     <figcaption class="plate-description-2">01 bisteca de porco, cogumelos, batata frita</figcaption>
                     <figcaption class="price-plate-2">R$10,90</figcaption>
                 </section>
-                <section class="plate-3">
+                <section id="plate3" class="plate-3" onclick="itemPlate3()">
                     <img src="./images/plate-03.png" alt="prato-3" width="144" height="87">
                     <figcaption class="plate-name-3">Bife Brasileiro</figcaption>
                     <figcaption class="plate-description-3">01 bife de alcatra, arroz, feijão, salada, batata frita</figcaption>
                     <figcaption class="price-plate-3">R$13,90</figcaption>
                 </section>
-                <section class="plate-4">
+                <section id="plate4" class="plate-4" onclick="itemPlate4()">
                     <img src="./images/plate-04.png" alt="prato-4" width="144" height="87">
                     <figcaption class="plate-name-4">Bifa a Cavalo</figcaption>
                     <figcaption class="plate-description-4">01 bisteca de porco, arroz, feijão, salada, batata frita</figcaption>
@@ -60,25 +62,25 @@
 
             <section class="category-2">Agora, sua bebida</section>
             <section class="drink-options">
-                <section class="drink-1">
+                <section id="drink1" class="drink-1" onclick="itemDrink1()">
                     <img src="./images/drink-01.png" alt="bebida-1" height="87">
                     <figcaption class="drink-name-1">Coca-Cola lata</figcaption>
                     <figcaption class="drink-description-1">Lata 350 ml</figcaption>
                     <figcaption class="price-drink-1">R$3,49</figcaption>
                 </section>
-                <section class="drink-1">
+                <section id="drink2" class="drink-2" onclick="itemDrink2()">
                     <img src="./images/drink-02.png" alt="bebida-2" height="87">
                     <figcaption class="drink-name-2">Fanta Laranja lata</figcaption>
                     <figcaption class="drink-description-2">Lata 350 ml</figcaption>
                     <figcaption class="price-drink-2">R$3,49</figcaption>
                 </section>
-                <section class="drink-1">
+                <section id="drink3" class="drink-3" onclick="itemDrink3()">
                     <img src="./images/drink-03.png" alt="bebida-3" height="87">
                     <figcaption class="drink-name-3">Pepsi lata</figcaption>
                     <figcaption class="drink-description-3">Lata 350 ml</figcaption>
                     <figcaption class="price-drink-3">R$3,49</figcaption>
                 </section>
-                <section class="drink-1">
+                <section id="drink4" class="drink-4" onclick="itemDrink4()">
                     <img src="./images/drink-04.png" alt="bebida-4" height="87">
                     <figcaption class="drink-name-4">Água com Gás Schin</figcaption>
                     <figcaption class="drink-description-4">Garrafa 1,5 L</figcaption>
@@ -88,26 +90,26 @@
 
             <section class="category-3">Por fim, sua sobremesa</section>
             <section class="dessert-options">
-                <section class="dessert-1">
+                <section id="dessert1" class="dessert-1" onclick="itemDessert1()">
                     <img src="./images/dessert-01.png" alt="dessert-1" width="144" height="87">
                     <figcaption class="dessert-name-1">Bolo de Chocolate</figcaption>
                     <figcaption class="dessert-description-1">Bolo 50 cm</figcaption>
                     <figcaption class="price-dessert-1">R$69,90</figcaption>
                 </section>
-                <section class="drink-1">
-                    <img src="./images/dessert-02.png" alt="dessert-2" width="144" height="87">
+                <section id="dessert2" class="drink-1" onclick="itemDessert2()">
+                    <img src="./images/dessert-022.png" alt="dessert-2" width="144" height="87">
                     <figcaption class="dessert-name-2">Bolo de Frutas</figcaption>
                     <figcaption class="dessert-description-2">Bolo 50 cm</figcaption>
                     <figcaption class="price-dessert-2">R$79,90</figcaption>
                 </section>
-                <section class="drink-1">
-                    <img src="./images/dessert-03.png" alt="dessert-3" width="144" height="87">
+                <section id="dessert3" class="drink-1" onclick="itemDessert3()">
+                    <img src="./images/dessert-033.png" alt="dessert-3" width="144" height="87">
                     <figcaption class="dessert-name-3">Picolé de Fruta</figcaption>
                     <figcaption class="dessert-description-3">Picolé caseiro</figcaption>
                     <figcaption class="price-dessert-3">R$2,90</figcaption>
                 </section>
-                <section class="drink-1">
-                    <img src="./images/dessert-04.png" alt="dessert-4" width="144" height="87">
+                <section id="dessert4" class="drink-1" onclick="itemDessert4()">
+                    <img src="./images/dessert-044.png" alt="dessert-4" width="144" height="87">
                     <figcaption class="dessert-name-4">Sorvete 1 Bola</figcaption>
                     <figcaption class="dessert-description-4">Sorvete de casquinha com 1 bola</figcaption>
                     <figcaption class="price-dessert-4">R$2,90</figcaption>
@@ -128,6 +130,8 @@
         </section>
 
     </footer>
+
+    <script src= "script.js"></script>
 
 </body>
 </html>

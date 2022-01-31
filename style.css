@@ -12,10 +12,10 @@ html, body{
 }
 
 /* ------------------------------------------ Header ------------------------------------------ */
-
-/* header {
-    position: absolute;
-} */
+.header-container {
+    margin-top: -40px;
+    background: #E5E5E5;
+}
 
 .top-bar {
     position: fixed;
@@ -50,13 +50,13 @@ html, body{
 
 .main-body {
     height: fit-content;
-    top: 0;
+    margin-top: 40px;
     margin-bottom: 92px;
     background: #E5E5E5;
 }
 
 .cat-title-1, .category-2, .category-3 {
-    margin-top: 123px;
+    margin-top: 180px;
     margin-left: 19px;
     font-size: 26px;
 }
@@ -74,6 +74,7 @@ html, body{
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    overflow: scroll;
 }
 
 /* ------------------- Plates ------------------- */
@@ -86,6 +87,7 @@ html, body{
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .plate-1 img, .plate-2 img, .plate-3 img, .plate-4 img {
@@ -144,6 +146,7 @@ html, body{
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .drink-1 img, .drink-2 img, .drink-3 img, .drink-4 img {
@@ -202,6 +205,7 @@ html, body{
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .dessert-1 img, .ddessert-2 img, .dessert-3 img, .dessert-4 img {
