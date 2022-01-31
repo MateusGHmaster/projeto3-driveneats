@@ -208,7 +208,7 @@ html, body{
     border: 5px solid rgb(255, 255, 255);
 }
 
-.dessert-1 img, .ddessert-2 img, .dessert-3 img, .dessert-4 img {
+.dessert-1 img, .dessert-2 img, .dessert-3 img, .dessert-4 img {
     margin-top: 18px;
     margin-left: 15px;
 }
@@ -278,8 +278,8 @@ html, body{
 }
 
 .order-text {
-    margin-top: 9px;
-    margin-left: 21px;
+    margin-top: 3px;
+    margin-left: 10px;
     font-size: 20px;
     font-weight: 0;
     text-align: center;
